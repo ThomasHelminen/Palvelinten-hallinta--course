@@ -32,8 +32,8 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
 
 
 ## Lähdeluettelo
-https://terokarvinen.com/2023/configuration-management-2023-autumn/
-https://terokarvinen.com/2023/salt-vagrant/
-https://terokarvinen.com/2017/04/11/vagrant-revisited-install-boot-new-virtual-machine-in-31-seconds/
-https://devops.stackexchange.com/questions/653/what-is-the-definition-of-cattle-not-pets#654
-http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
+- https://terokarvinen.com/2023/configuration-management-2023-autumn/
+- https://terokarvinen.com/2023/salt-vagrant/
+- https://terokarvinen.com/2017/04/11/vagrant-revisited-install-boot-new-virtual-machine-in-31-seconds/
+- https://devops.stackexchange.com/questions/653/what-is-the-definition-of-cattle-not-pets#654
+- http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
