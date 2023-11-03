@@ -6,7 +6,7 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
 
   Slater 2017: [What is the definition of "cattle not pets"?](https://devops.stackexchange.com/questions/653/what-is-the-definition-of-cattle-not-pets#654). (Vain tuo yksi vastaus DevOps Stack Exchangen kysymykseen)
   
-    - Randy Bias [kuvailee] (http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/) "lemmikeiksi" palvelinta tai palvelinparia, joita käsitellään korvaamattomina tai uniikkina järjestelmänä joka ei voi ikinä mennä alas. Usein manuaalisesti rakennettu.
+    - Randy Bias kuvailee "lemmikeiksi" palvelinta tai palvelinparia, joita käsitellään korvaamattomana tai uniikkina järjestelmänä joka ei voi ikinä mennä alas. Usein manuaalisesti rakennettu.
     - Hän kuvailee "karjan" olevan enemmän kuin kahden palvelimen kokoelma, joka on rakennettu käyttäen automaatiotyökaluja. Suunniteltu kestämään useamman palvelimen kaatumiset. Ihmisen puuttumista ei tyypillisesti tarvita vikatapahtumissa.
     
   Karvinen 2017: [Vagrant Revisited – Install & Boot New Virtual Machine in 31 seconds](https://terokarvinen.com/2017/04/11/vagrant-revisited-install-boot-new-virtual-machine-in-31-seconds/) (Suosittelen koneeksi 'vagrant init debian/bullseye64')
