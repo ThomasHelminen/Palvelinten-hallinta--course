@@ -30,9 +30,20 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
     
 a) Asenna Vagrant. (Toiminee parhaiten isäntäkäyttöjärjestelmässä, siis siinä, joka pyörii raudalla)
 
-  Asensin V
+  Aloitin Vagrantin asentamisen koneelleni [Täältä](https://developer.hashicorp.com/vagrant/downloads). Latasin Vagrantista AMD64 2.4.0 -version. 
 
+  ![vagrant-nettisivu](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/419241b9-99bb-4e9e-8687-5b28f943325e)
 
+  Asennus onnistui ongelmitta.
+  
+  ![vagrant-asennus-ok](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/5d12900f-71b0-4377-87eb-3b7da4718280)
+
+  Tietokoneen uudelleenkäynnistämisen jälkeen varmistin Windowsin komentokehotteesta, että Vagrant on asentunut oikein vagrant -v' -komennolla.
+
+  ![vagrant-cmd-ok](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/3c6c02d8-a7aa-4d01-977a-95d0720be3e9)
+  
+
+  
 ## Lähdeluettelo
 - https://terokarvinen.com/2023/configuration-management-2023-autumn/
 - https://terokarvinen.com/2023/salt-vagrant/
