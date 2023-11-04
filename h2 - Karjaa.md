@@ -28,7 +28,9 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
       - Esimerkkejä idempotenttikomennoista
       - Kuinka tuhota virtuaalikoneet
     
+a) Asenna Vagrant. (Toiminee parhaiten isäntäkäyttöjärjestelmässä, siis siinä, joka pyörii raudalla)
 
+  Asensin V
 
 
 ## Lähdeluettelo
@@ -37,3 +39,4 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
 - https://terokarvinen.com/2017/04/11/vagrant-revisited-install-boot-new-virtual-machine-in-31-seconds/
 - https://devops.stackexchange.com/questions/653/what-is-the-definition-of-cattle-not-pets#654
 - http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
+- https://developer.hashicorp.com/vagrant/downloads
