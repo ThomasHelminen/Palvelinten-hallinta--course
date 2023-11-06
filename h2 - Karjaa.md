@@ -173,7 +173,7 @@ Seuraavaksi käyn tarkistamassa t002 orjakoneelta, että kyseinen infra-as-code 
 
 ![t002 infra](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/ad8a897d-01d0-4f0f-a277-2c22636d780c)
 
-Ja löytyhän se. Nyt ajan saman komennon vielä uusiksi masterilla, jotta nähdään onko komento idemptotentti:
+Ja löytyhän se. Nyt ajan saman komennon vielä uusiksi masterilla, jotta nähdään onko komento idempotentti:
 
 ![hello-idempotentti](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/67946365-5c97-48c8-9506-c2fb1226b733)
 
