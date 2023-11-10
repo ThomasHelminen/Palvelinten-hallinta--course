@@ -155,6 +155,29 @@ Komento näytti kaksi lokitapahtumaa. Lokitapahtumissa näkyi mm. Author, eli te
 
 Nämä tehtävät olivat äärimmäisen opettavaisia, sillä oma alkutilanteeni Gitista oli varsin tietämätön ennen näiden tehtävien suorittamista.
 
+## g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjestelmällä kuin sillä, millä teit muut harjoitukset. Selitä niin, että kyseistä järjestelmää osaamatonkin onnistuu. Mahdollisuuksia on runsaasti: Debian, Fedora, Windows, OSX...
+
+Kuvat:
+
+![Screenshot from 2023-11-11 00-08-42](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/ab0c4df4-eb30-4e4f-a379-32b813c520a2)
+
+![Screenshot from 2023-11-11 00-09-47](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/3ca33e5f-56e5-4486-add9-4035687def5e)
+
+![Screenshot from 2023-11-11 00-10-34](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/eb9be956-4ee8-4d24-b6a6-7b8ef0045d63)
+
+![Screenshot from 2023-11-11 00-13-26](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/524351ba-a34a-4ce0-b305-82196650b124)
+
+![Screenshot from 2023-11-11 00-14-07](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/b14b9a4f-667a-49d7-aa99-a7426d618ba6)
+
+![Screenshot from 2023-11-11 00-14-38](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/602b3221-4ec3-4c64-b80b-cba36d4c1757)
+
+![Screenshot from 2023-11-11 00-15-10](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/7330452e-9599-4be1-8a18-1fb39799ed9f)
+
+![Screenshot from 2023-11-11 00-15-50](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/59324342-8b73-4718-906f-e4818881da1c)
+
+![Screenshot from 2023-11-11 00-16-56](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/00286d2e-b77d-4dbf-b33b-4be9239bf74c)
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Lähdeluettelo
