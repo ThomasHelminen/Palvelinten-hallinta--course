@@ -167,7 +167,6 @@ Kuvat:
 
 ![Screenshot from 2023-11-11 00-13-26](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/524351ba-a34a-4ce0-b305-82196650b124)
 
-![Screenshot from 2023-11-11 00-14-07](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/b14b9a4f-667a-49d7-aa99-a7426d618ba6)
 
 ![Screenshot from 2023-11-11 00-14-38](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/602b3221-4ec3-4c64-b80b-cba36d4c1757)
 
