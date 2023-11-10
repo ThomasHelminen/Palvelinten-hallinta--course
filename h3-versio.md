@@ -39,7 +39,7 @@ Asennuksen onnistuessa varmistin, että Git on todella asentunut. Käytin koment
 
 Aloin ottamaan selvää miten Githubin varasto kloonataan Gitissa. Luin GitHubin [artikkelin](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) aiheesta, jota käytin apuna tässä tehtävässä. Halusin käyttää SSH-osoitetta kloonaukseen, kuten Karvisen [Tehtävän h3 vinkeissä](https://terokarvinen.com/2023/configuration-management-2023-autumn/) suositeltiin.
 
-Luin The Server Siden [blogiartikkelin](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example)  "How to SSH into GitHub on Windows example", jossa näytetään kohta kohdalta kuinka luoda SSH-avainpari ja kuinka lisätä julkinen avain omaan Githubiin SSH yhteyden mahdollistamiseksi. Käytän tämän artikkelin ohjeita SSH avainten luomiseen.
+Luin TheServerSiden [blogiartikkelin](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example)  "How to SSH into GitHub on Windows example", jossa näytetään kohta kohdalta kuinka luoda SSH-avainpari ja kuinka lisätä julkinen avain omaan Githubiin SSH yhteyden mahdollistamiseksi. Käytän tämän artikkelin ohjeita SSH avainten luomiseen.
 
 Avasin Windowsin PowerShellin ja ajoin komennon ``ssh-keygen -o -t rsa -C "key to winter-management repo"``. Komennossa -o tarkoittaa uusimman OpenSSH formaatin käyttöä, -t tarkoittaa avaimen tyyppiä ja -C tarkoittaa kommenttia tai metadataa joka lisätään julkiseen avaimeen.
 
@@ -101,7 +101,7 @@ Voimme tarkastaa, että tiedosto on tallentunut listamaalla varaston sisältö G
 
 ![ls-push-testi](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/039c124b-540e-4ae4-aaa9-f8cc88973159)
 
-Nyt kun tiedosto todella löytyy varastosta, niin lähdetään puskemaan tiedosto takaisin GitHubiin. Käytin puskemiseen Atlassianin Bitbucket supportin [artikkelia](https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source-files/) "Add, edit, and commit to source files" sekä The Server Siden [artikkelia](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub) "How to git push an existing project to GitHub".
+Nyt kun tiedosto todella löytyy varastosta, niin lähdetään puskemaan tiedosto takaisin GitHubiin. Käytin puskemiseen Atlassianin Bitbucket supportin [artikkelia](https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source-files/) "Add, edit, and commit to source files" sekä TheServerSiden [artikkelia](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub) "How to git push an existing project to GitHub".
 
 Aloitan puskemisen ajamalla komennon ``$ git add -all``, jonka pitäisi lisätä kaikki uudet tiedostot tulevaan puskemiseen.
 
@@ -123,7 +123,7 @@ Yllä olevasta kuvasta voidaan huomata, että kolme tiedostoa kirjoitettiin kome
 
 Ja löytyyhän se! Tehtävä onnistui oikein.
 
-##c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+## c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 Tehdään tyhmä muutos. Muokataan push-testi.md -tiedoston sisältöä niin, että siellä näkyy yrityksen luottokortin tiedot ja tallentetaan tiedosto.
 
@@ -151,20 +151,20 @@ Ajan komennon ``$ git log``
 
 ![git-log](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/bf26300f-d5be-4a2d-a834-597e67b79bbf)
 
-Komento näytti kaksi lokitapahtumaa. Lokitapahtumissa näkyi mm. Author, eli tekijän nimi sekä sähköpostiosoite (jotka lisättiin aiemmin). Nyt ymmärrän, että nimi- ja sähköpostitiedot ovat pakollisia varmasti juuri sen takia, että lokimuutokset näkyvät oikein. Yllä olevan kuvan lokitapahtumissa voidaan huomata alkuperäinen commit sekä viesti (jonka laitoin ennen kuin puskin tiedostot takaisin GitHubiin). Lokitiedoissa näkyy myös päivämäärä.
+Komento näytti kaksi lokitapahtumaa. Lokitapahtumissa näkyi mm. Author, eli tekijän nimi sekä sähköpostiosoite (jotka lisättiin aiemmin). Nyt ymmärrän, että nimi- ja sähköpostitiedot ovat pakollisia varmasti juuri sen takia, että lokimuutokset näkyvät oikein. Yllä olevan kuvan lokitapahtumissa voidaan huomata alkuperäinen commit sekä viesti (jonka laitoin ennen kuin puskin tiedostot takaisin GitHubiin). Lokitiedoissa näkyy myös päivämäärä. Sitä en tiedä, miksi toisessa lokitapahtumassa nimi on kirjoitettu yhteen...?
 
-Nämä tehtävät olivat äärimmäisen opettavaisia, sillä oma alkutilanteeni Gitista oli varsin tietämätön ennen näiden tehtävien suorittamista!
+Nämä tehtävät olivat äärimmäisen opettavaisia, sillä oma alkutilanteeni Gitista oli varsin tietämätön ennen näiden tehtävien suorittamista.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Lähdeluettelo
+-  Atlassian. s.a. What is Git? Luettavissa: https://www.atlassian.com/git/tutorials/what-is-git. Luettu 10.11.2023.
+-  Atlassian, Bitbucket Support. s.a. Add, edit, and commit to source files. Luettavissa: https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source-files/. Luettu: 10.11.2023.
+-  GitHub Inc. s.a. Cloning a repository. Luettavissa: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository. Luettu 10.11.2023.
+-  GitHub Inc. s.a. Generating a new SSH key and adding it to the ssh-agent. Luettavissa: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent. Luettu 10.11.2023.
+-  GitHub Inc. s.a. Testing your SSH connection. Luettavissa: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection. Luettu 10.11.2023.
+-  Git SCM. s.a. Downloads. Luettavissa: https://git-scm.com/download/win. Luettu 10.11.2023.
+-  Git SCM. 2.11.2023. git-log Documentation. Luettavissa: https://git-scm.com/docs/git-log. Luettu 10.11.2023.
 -  Karvinen, T. 13.10.2023. Infra as Code 2023. Luettavissa: https://terokarvinen.com/2023/configuration-management-2023-autumn/. Luettu 10.11.2023.
--  https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
--  https://www.atlassian.com/git/tutorials/what-is-git
--  https://git-scm.com/download/win
--  https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example
--  https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
--  https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
--  https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source-files/
--  https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub
--  https://git-scm.com/docs/git-log
+-  TheServerSide. McKenzie, C. 11.1.2022. How to SSH into GitHub on Windows example. Luettavissa: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example. Luettu 10.11.2023.
+-  TheServerSide. McKenzie, C. 29.8.2023. Luettavissa: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub. Luettu 10.11.2023.
