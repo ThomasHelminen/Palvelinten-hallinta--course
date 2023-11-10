@@ -41,7 +41,7 @@ Aloin ottamaan selvää miten Githubin varasto kloonataan Gitissa. Luin GitHubin
 
 Luin The Server Siden [blogiartikkelin](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example)  "How to SSH into GitHub on Windows example", jossa näytetään kohta kohdalta kuinka luoda SSH-avainpari ja kuinka lisätä julkinen avain omaan Githubiin SSH yhteyden mahdollistamiseksi. Käytän tämän artikkelin ohjeita SSH avainten luomiseen.
 
-Avasin Windowsin PowerShellin ja ajoin komennon ``ssh-keygen -o -t rsa -C "key to winter-management repo". Komennossa -o tarkoittaa uusimman OpenSSH formaatin käyttöä, -t tarkoittaa avaimen tyyppiä ja -C tarkoittaa kommenttia tai metadataa joka lisätään julkiseen avaimeen.
+Avasin Windowsin PowerShellin ja ajoin komennon ``ssh-keygen -o -t rsa -C "key to winter-management repo"``. Komennossa -o tarkoittaa uusimman OpenSSH formaatin käyttöä, -t tarkoittaa avaimen tyyppiä ja -C tarkoittaa kommenttia tai metadataa joka lisätään julkiseen avaimeen.
 
 ![ssh-avain-luonti](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/3b18937e-c28b-42c9-b216-092e7e195f57)
 
