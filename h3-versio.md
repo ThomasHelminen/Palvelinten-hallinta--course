@@ -93,7 +93,11 @@ Nyt on olemme oikeassa varastossa, niin luodaan tänne tiedosto push-testi.md ko
 
 ![nano push-testi-md](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/1824e38c-b0cd-4f6b-9202-52e79087b2ce).
 
-Lisäsin tiedostoon kuvassa näkyvän kommentin ja tallensin sen. Voimme tarkastaa, että tiedosto on tallentunut listamaalla varaston sisältö Git Bashissa komennolla ``$ ls``
+Lisäsin tiedostoon kuvassa näkyvän kommentin ja tallensin sen. 
+
+![push-testi-md-sisältö](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/edc50976-7604-4ec6-b858-3688e187864b)
+
+Voimme tarkastaa, että tiedosto on tallentunut listamaalla varaston sisältö Git Bashissa komennolla ``$ ls``
 
 ![ls-push-testi](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/039c124b-540e-4ae4-aaa9-f8cc88973159)
 
@@ -113,7 +117,7 @@ Tämän jälkeen vuorossa on uuden tiedoston puskeminen GitHubiin. Ajan komennon
 
 ![git-push-komento](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/1a7175f8-b86d-49cc-86fe-166517ea09e5)
 
-Yllä olevasta kuvasta voidaan huomata, että kolme tiedostoa kirjoitettiin komennossa, eli uusi tiedosto (push-testi.md, README.md sekä LICENSE). Käydään tarkistamassa GitHubissa, että löytyykö uusi tiedosto sieltä. 
+Yllä olevasta kuvasta voidaan huomata, että kolme tiedostoa kirjoitettiin komennossa, eli uusi tiedosto push-testi.md sekä README.md ja LICENSE). Käydään tarkistamassa GitHubissa, että löytyykö uusi tiedosto sieltä. 
 
 ![git-push-ok](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/d6a4ac94-2e7c-43c9-987f-e5fc9869eb29)
 
