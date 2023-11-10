@@ -1,4 +1,4 @@
-![kuva](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/82a14ffa-b947-439d-a7ce-80b78287900f)# H3 - Versio
+# H3 - Versio
 Tältä sivulta löytyy vastaukset Palvelinten hallinta -kurssin kotitehtävään 'h3 Versio'. Tehtävät löytyvät [täältä](https://terokarvinen.com/2023/configuration-management-2023-autumn/) (Karvinen 2023). Työkoneena toimii HP:n Elitebook 830 G5 (speksit: Windows 11 Pro versio 10.0.22621, Intel Core i5-8350U, 16GB RAM, 256GB SSD). Kaikki kuvankaappaukset ovat minun ottamia, ellen toisin mainitse.
 
 Tehtävän lähtökohdat: En ole käyttänyt GitHubia ennen tätä kurssia. Gittiin en ole koskenut ikinä. Eli oppimista on tiedossa!
