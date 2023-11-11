@@ -195,7 +195,7 @@ Nyt kun työntäminen oltiin valmisteltu, suoritin viimeisen työntökomennon ``
 
 ![Screenshot from 2023-11-11 00-15-50](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/59324342-8b73-4718-906f-e4818881da1c)
 
-Lopuksi päivitin kyseisen GitHub varaston verkkosivun virtuaalikoneen selaimessa, ja päivittämisen jälkeen iloikseni huomasin, että debian-testi.md -tiedosto löytyi sieltä!
+Lopuksi päivitin kyseisen GitHub varaston verkkosivun virtuaalikoneen selaimessa, ja päivittämisen jälkeen iloikseni huomasin, että debian-testi.md -tiedosto löytyi sieltä, eli pusku onnistui!
 
 ![Screenshot from 2023-11-11 00-16-56](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/00286d2e-b77d-4dbf-b33b-4be9239bf74c)
 
