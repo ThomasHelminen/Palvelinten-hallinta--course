@@ -173,7 +173,7 @@ Kuvasta näkyy mihin sijaintiin avainpari on luotu. Seuraavana vaiheessa oli kä
 
 ![Screenshot from 2023-11-11 00-09-47](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/3ca33e5f-56e5-4486-add9-4035687def5e)
  
-Yksityisen avaimen lisäyksen jälkeen avasin julkisen avaimen sisällön komennolla ``$ cat id_ed25519.pub``. Kopioin tämän avaimen sisällön ja kirjauduin virtuaalikoneen selaimella GitHubiin. Kävin lisäämässä GItHubin asetuksissa kyseisen julkisen avaimen SSH-avaimeksi.
+Yksityisen avaimen lisäyksen jälkeen avasin julkisen avaimen sisällön komennolla ``$ cat id_ed25519.pub``. Kopioin tämän avaimen sisällön ja kirjauduin virtuaalikoneen selaimella GitHubiin. Kävin lisäämässä GitHubin asetuksissa kyseisen julkisen avaimen SSH-avaimeksi.
 
 ![Screenshot from 2023-11-11 00-10-34](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/eb9be956-4ee8-4d24-b6a6-7b8ef0045d63)
 
