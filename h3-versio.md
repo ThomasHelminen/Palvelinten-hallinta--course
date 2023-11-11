@@ -157,22 +157,45 @@ Nämä tehtävät olivat äärimmäisen opettavaisia, sillä oma alkutilanteeni 
 
 ## g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjestelmällä kuin sillä, millä teit muut harjoitukset. Selitä niin, että kyseistä järjestelmää osaamatonkin onnistuu. Mahdollisuuksia on runsaasti: Debian, Fedora, Windows, OSX...
 
-Kuvat:
+Aloitin suorittamaan tätä tehtävää käynnistämällä isäntäkoneeltani VirtualBoxin (versio. 7.0.12). Starttasin aiemmin tälle kurssille tehdyn virtuaalikoneeni nimeltä "DebianTeroKarvinenCom".
+
+![debian-vb](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/a15c1960-d548-4962-97e6-49ddefae1385)
+
+Koneen käynnistyttyä etsin sovellusvalikosta "Terminal" sovelluksen. 
+
+![debian-terminal](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/611e25be-5004-4a44-a8f1-1a9dd1191a9e)
+
+Terminalin avauduttua otin esille selaimeen GitHub Docs [artikkelin](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux), jossa näkyy ohjeet SSH avaimen tekemiseen sekä yksityisen avaimen lisääminen ssh-agentille. Seurasin ohjeita kohta kohdalta. Aloitin terminaalin käytön komennolla ``$ ssh-keygen -t ed25519 -C "thomas.helminen@hotmail.com"``, joka luo uuden SSH-avainparin.
 
 ![Screenshot from 2023-11-11 00-08-42](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/ab0c4df4-eb30-4e4f-a379-32b813c520a2)
 
+Kuvasta näkyy mihin sijaintiin avainpari on luotu. Seuraavana vaiheessa oli käynnistää ssh-agentti, johon lisätään oma yksityinen avain. Ajoin ensiksi komennon ``$ exec ssh-agent bash``, jonka jälkeen komennon ``$ eval "$(ssh-agent -s)"``, joka käynnisti kyseisen agentin. Tämän jälkeen lisäsin yksityisen avaimen agenttiin komennolla ``$ ssh-add ~/.ssh/id_ed25519``. Alla olevasta kuvasta voi huomata, että identiteetti lisättiin.
+
 ![Screenshot from 2023-11-11 00-09-47](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/3ca33e5f-56e5-4486-add9-4035687def5e)
+ 
+Yksityisen avaimen lisäyksen jälkeen avasin julkisen avaimen sisällön komennolla ``$ cat id_ed25519.pub``. Kopioin tämän avaimen sisällön ja kirjauduin virtuaalikoneella GitHubiin. Kävin lisäämässä GItHubin asetuksissa kyseisen julkisen avaimen SSH-avaimeksi.
 
 ![Screenshot from 2023-11-11 00-10-34](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/eb9be956-4ee8-4d24-b6a6-7b8ef0045d63)
 
+Kun sain lisättyä julkisen avaimen GitHubiini, niin vuorossa oli asentaa Git Debianille. Varmistin Gitin asennuskomennon [täältä](https://git-scm.com/download/linux). Ajoin komennon ``$ sudo apt install git`` joka asensi Gitin virtuaalikoneelle.
+
 ![Screenshot from 2023-11-11 00-13-26](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/524351ba-a34a-4ce0-b305-82196650b124)
 
+Gitin asennuksen jälkeen kloonasin winter-management varaston virtuaalikoneelle komennolla ``$ git clone git@github.com:ThomasHelminen/winter-management.git``. Kloonauksen jälkeen siirryin varastoon komennolla ``$ cd winter-management/`` ja siellä loin uuden nanotiedoston nimeltä debian-testi.md komennolla ``$ nano debian-testi.md``. Tiedoston luonnin jälkeen listasin vielä varaston sisällön komennolla ``$ ls``, jotta pystyin varmistumaan, että tiedosto luotiin.
 
 ![Screenshot from 2023-11-11 00-14-38](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/602b3221-4ec3-4c64-b80b-cba36d4c1757)
 
+Sitten oli aika aloittaa työntämään uutta tiedostoa GitHubiini. Eli ajoin alla olevassa kuvassa seuraavia komentoja:
+  1. ``$ git add .``
+  2. ``$ git commit -m "Työntötesti Debianilla"``, jonka jälkeen nimi- ja sähköpostitiedot konfiguroitiin automaattisesti.
+
 ![Screenshot from 2023-11-11 00-15-10](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/7330452e-9599-4be1-8a18-1fb39799ed9f)
 
+Nyt kun työntäminen oltiin valmisteltu, suoritin viimeisen työntökomennon ``$ git push git@github.com:ThomasHelminen/winter-management.git`` joka työnsi uuden tiedoston GitHubiini.
+
 ![Screenshot from 2023-11-11 00-15-50](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/59324342-8b73-4718-906f-e4818881da1c)
+
+Lopuksi päivitin kyseisen GitHub varaston verkkosivun virtuaalikoneen selaimessa, ja päivittämisen jälkeen iloikseni huomasin, että debian-testi.md -tiedosto löytyi sieltä!
 
 ![Screenshot from 2023-11-11 00-16-56](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/00286d2e-b77d-4dbf-b33b-4be9239bf74c)
 
@@ -184,9 +207,11 @@ Kuvat:
 -  Atlassian, Bitbucket Support. s.a. Add, edit, and commit to source files. Luettavissa: https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source-files/. Luettu: 10.11.2023.
 -  GitHub Inc. s.a. Cloning a repository. Luettavissa: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository. Luettu 10.11.2023.
 -  GitHub Inc. s.a. Generating a new SSH key and adding it to the ssh-agent. Luettavissa: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent. Luettu 10.11.2023.
+-  GitHub Inc. s.a. Generating a new SSH key and adding it to the ssh-agent (Linux). Luettavissa: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux. Luettu 11.11.2023.
 -  GitHub Inc. s.a. Testing your SSH connection. Luettavissa: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection. Luettu 10.11.2023.
--  Git SCM. s.a. Downloads. Luettavissa: https://git-scm.com/download/win. Luettu 10.11.2023.
+-  Git SCM. s.a. Download for Linux and Unix. Luettavissa: https://git-scm.com/download/linux. Luettu 11.11.2023.
+-  Git SCM. s.a. Download for Windows. Luettavissa: https://git-scm.com/download/win. Luettu 10.11.2023.
 -  Git SCM. 2.11.2023. git-log Documentation. Luettavissa: https://git-scm.com/docs/git-log. Luettu 10.11.2023.
--  Karvinen, T. 13.10.2023. Infra as Code 2023. Luettavissa: https://terokarvinen.com/2023/configuration-management-2023-autumn/. Luettu 10.11.2023.
+-  Karvinen, T. 13.10.2023. Infra as Code 2023. Luettavissa: https://terokarvinen.com/2023/configuration-management-2023-autumn/. Luettu 11.11.2023.
 -  TheServerSide. McKenzie, C. 11.1.2022. How to SSH into GitHub on Windows example. Luettavissa: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example. Luettu 10.11.2023.
 -  TheServerSide. McKenzie, C. 29.8.2023. Luettavissa: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub. Luettu 10.11.2023.
