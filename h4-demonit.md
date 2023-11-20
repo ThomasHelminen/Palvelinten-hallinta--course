@@ -219,7 +219,7 @@ Mielestäni nämä viikkotehtävät antoivat minulle tähän mennessä eniten ve
 
 ## Lähdeluettelo
 
--  Hautaviita, J. updated 18.11.2023. H4 - Demonit. Luettavissa: https://github.com/hautadata/palvelintenhallinta-jh/blob/main/h4-demonit.md. Luettu 19.11.2023.
+-  Hautaviita, J. updated 18.11.2023. H4 - Demonit. Luettavissa: https://github.com/hautadata/palvelintenhallinta-jh/blob/main/h4-demonit.md. Luettu 20.11.2023.
 -  Helminen, T. 6.11.2023. H2 - Karjaa. Luettavissa: https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/blob/main/h2-karjaa.md. Luettu 20.11.2023.
 -  Karvinen, T. 3.4.2018. Pkg-File-Service – Control Daemons with Salt – Change SSH Server Port. Luettavissa: https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh. Luettu 20.11.2023.
 -  Karvinen, T. 13.10.2023. Infra as Code 2023. Luettavissa: https://terokarvinen.com/2023/configuration-management-2023-autumn/. Luettu 19.11.2023.
