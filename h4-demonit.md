@@ -215,7 +215,7 @@ Testasin lopuksi vielä SSHd:n tilaa komennolla ``$ sudo systemctl status sshd.s
 ![sshd-status](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/assets/148875548/622c2124-bce5-4f9a-92b5-399c516fff26)
 
 
-Mielestäni tämän viikon tehtävät antoivat minulle tähän mennessä eniten kaikista näistä tehtävistä. Ehkä siksi, että nyt tehtävissä oli jotain "vanhaa", eikä kaikki oppiminen ja aika mennyt pelkästään uuden oppimiseen, vaan aiemmin opittua pääsi jo vähän soveltamaan.
+Mielestäni nämä viikkotehtävät antoivat minulle tähän mennessä eniten verrattuna aikaisempiin viikkotehtäviin. Ehkä siksi, että tehtävissä oli nyt jotain "vanhaa", eikä kaikki oppiminen ja aika mennyt pelkästään uuden oppimiseen, vaan aiemmin opittua pääsi jo vähän soveltamaan.
 
 ## Lähdeluettelo
 
